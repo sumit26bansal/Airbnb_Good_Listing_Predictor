@@ -17,8 +17,8 @@ library(gbm)
 
 
 
-my_test = read.csv("~/Desktop/Data Mining /Data Mining Project/Airbnb_test_clean.csv")
-my_train = read.csv("~/Desktop/Data Mining /Data Mining Project/Airbnb_training_clean.csv")
+my_test = read.csv("Airbnb_test_clean.csv")
+my_train = read.csv("Airbnb_training_clean.csv")
 
 my_train$host_identity_verified = as.factor(my_train$host_identity_verified)
 
